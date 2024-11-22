@@ -1,0 +1,75 @@
+/* Dashboard styling */
+.dashboard-container {
+    width: 80%;
+    margin: 30px auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #333;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.loading, .error {
+    text-align: center;
+    font-size: 18px;
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+.registration-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.registration-table th,
+.registration-table td {
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.registration-table th {
+    background-color: #f1f1f1;
+    font-weight: bold;
+    color: #333;
+}
+
+.registration-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.registration-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+@media (max-width: 768px) {
+    .dashboard-container {
+        width: 95%;
+    }
+
+    .registration-table th, .registration-table td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
